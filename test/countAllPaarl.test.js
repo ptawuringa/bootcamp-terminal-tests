@@ -11,11 +11,10 @@ describe("The countAllPaarl function ", function(){
      
   
       it("should return 2 - but the parameter needs work'", function() {
-        var EXPECTED_COUNT = 2;
-        
+       
         // only change code below this line in this function to make this test pass
         
-        assert.equal(2,EXPECTED_COUNT, countAllPaarl("CJ 123-123, CA 123-123"));
+        assert.equal(2, countAllPaarl("CJ 123-123, CA 123-123,CJ 124-124, CA 124-124"));
       });
     
 

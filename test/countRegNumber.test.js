@@ -12,11 +12,11 @@ let countRegNumber = require("../countRegNumber");
     });
     
     it("should return 2 - but the parameter needs work'", function() {
-      var EXPECTED_COUNT = 2;
+    
       
       // only change code below this line in this function to make this test pass
       
-      assert.equal(2,EXPECTED_COUNT, countRegNumber("CY 123-123, CA 123-123"));
+      assert.equal(2, countRegNumber("CY 123-123, CA 123-123, CY 124-124, CA 124-124"));
     });
     
     it("should return 5 - but the parameter needs work'", function() {
